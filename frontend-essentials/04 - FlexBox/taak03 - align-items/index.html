@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox container</title>
+
+    <style>
+        body{
+            margin: 0px;;
+        }
+        .container{
+            border:5px solid goldenrod;
+            display: inline-flex;
+            justify-content: space-around;
+            width: 100%;
+            background: tomato;
+            padding:0px;
+            margin:0px;
+
+        }
+
+        .menu-item{
+            color:white;
+            font-size: 40px;
+            text-align: center;
+            text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+            list-style-type: none;;
+            padding:10px;
+        }
+
+        a{
+            text-decoration: none;
+            color: yellow;
+            text-shadow: 4px 2px 1px goldenrod;
+            font-family: consolas;
+            
+        }
+
+        
+
+    </style>
+</head>
+<body>
+   <nav>
+       <ul class="container">
+           <li class="menu-item"><a href="#">Home</a></li>
+           <li class="menu-item"><a href="#">Over mij</a></li>
+           <li class="menu-item"><a href="#">Vaardigheden</a></li>
+           <li class="menu-item"><a href="#">Hobby's</a></li>
+       </ul>
+   </nav>
+</body>
+</html>
